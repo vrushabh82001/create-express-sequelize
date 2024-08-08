@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "app1",
+      "script": "./bin/server.js",
+      "instances": 1,
+      "error_file": "./logs/err.log",
+      "out_file": "./logs/output.log",
+      "exec_mode": "cluster"
+    }
+  ]
+}

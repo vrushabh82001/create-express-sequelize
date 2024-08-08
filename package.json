@@ -1,0 +1,32 @@
+{
+  "name": "create-my-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-my-backend": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrushabh82001/create-my-backend.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "vrushabh satasiya",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vrushabh82001/create-express-sequelize/issues"
+  },
+  "homepage": "https://github.com/vrushabh82001/create-express-sequelize#readme",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
